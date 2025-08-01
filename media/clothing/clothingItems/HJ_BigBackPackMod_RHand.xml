@@ -2,7 +2,7 @@
 <clothingItem>
 	<m_MaleModel>HJ_BigBackPackMod_RHand</m_MaleModel>
 	<m_FemaleModel>HJ_BigBackPackMod_RHand</m_FemaleModel>
-	<!-- <m_GUID>71ef5ce9-81ca-46a1-ba5b-39180859bc23</m_GUID> -->
+	<m_GUID>5c08a57d-b651-47bb-ba7b-f67ca2c0aa6c</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
