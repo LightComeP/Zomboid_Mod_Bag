@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
-	<m_MaleModel>HJ_BigBackPackMod</m_MaleModel>
+	<m_MaleModel>HJ_BigBackPackMod_RHand</m_MaleModel>
 	<m_FemaleModel>HJ_BigBackPackMod_RHand</m_FemaleModel>
 	<!-- <m_GUID>71ef5ce9-81ca-46a1-ba5b-39180859bc23</m_GUID> -->
 	<m_Static>false</m_Static>
