@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/HJ_BigBackPackMod.xml</path>
+		<!-- <guid>71ef5ce9-81ca-46a1-ba5b-39180859bc23</guid> -->
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HJ_BigBackPackMod_LHand.xml</path>
+		<!-- <guid>71ef5ce9-81ca-46a1-ba5b-39180859bc23</guid> -->
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HJ_BigBackPackMod_RHand.xml</path>
+		<!-- <guid>71ef5ce9-81ca-46a1-ba5b-39180859bc23</guid> -->
+	</files>
+</fileGuidTable>
