@@ -13,9 +13,9 @@ module HJ_BigBack
 
 		attachment HJ_BigBackPackMod
 		{
-			offset = 0.0 0.15 0.1,
+			offset = 0.0 0.15 1,
 			rotate = 0.0 -10.0 0.0,
-			bone = Bip01_Spine1,
+			bone = Bip01_BackPack,
 		}
 
 		attachment HJ_BigBackPackMod_RHand
