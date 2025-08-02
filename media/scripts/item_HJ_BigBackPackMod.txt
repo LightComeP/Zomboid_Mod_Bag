@@ -1,11 +1,10 @@
 module HJ_BigBack
 {
-  imports
-  {
+  imports {
     base
   }
-	item HJ_BigBackPackMod
-    {
+
+	item HJ_BigBackPackMod {
         DisplayCategory = Bag,
         Type = Container,
         DisplayName = BasicBigBackPack,
@@ -26,16 +25,51 @@ module HJ_BigBack
         WorldStaticModel = HJ_BigBackPackMod,
         ReplaceInSecondHand = HJ_BigBackPackMod_LHand holdingbagleft,
         ReplaceInPrimaryHand = HJ_BigBackPackMod_RHand holdingbagright,
-    }
+  }
+  
+	item HJ_BigChestBag_Front {
+        DisplayCategory           = Bag, 
+        Type                      = Container,
+        DisplayName               = HJ_BigChestBag(Front),
+        ClothingItem              = HJ_BigChestBag/HJ_BigChestBag,
+        ClothingItemExtra         = HJ_BigChestBag_Back,
+        ClothingItemExtraOption   = FannyPack_WearBack,
+        clothingExtraSubmenu      = FannyPack_WearFront,
+        bodyLocation              = FannyPackFront,
+        CanBeEquipped             = FannyPackFront,
 
-	recipe HJ_BigBackPackMod 제작
-	{
-		keep Needle,
-		Thread=1,
-		RippedSheets=10,
-		Result 		: HJ_BigBackPackMod,
-		Time 		: 80,
-		CanBeDoneFromFloor 		: true,
-	}
+        WeightReduction	          = 99,
+        Weight	                  =	0.5,
+        Capacity	                =	200,
+        
+        Icon	                    =	HJ_BigChestBag,
+        OpenSound                 = OpenBag,
+        CloseSound                = CloseBag,
+        PutInSound                = PutItemInBag,
+        RunSpeedModifier          = 1,
+        WorldStaticModel          = HJ_BigChestBag,
+  }
+
+	item HJ_BigChestBag_Back {
+        DisplayCategory           = Bag, 
+        Type                      = Container,
+        DisplayName               = HJ_BigChestBag,
+        ClothingItem              = HJ_BigChestBag/HJ_BigChestBag,
+        ClothingItemExtra         = HJ_BigChestBag_Front,
+        ClothingItemExtraOption   = FannyPack_WearBack,
+        clothingExtraSubmenu      = FannyPack_WearFront,
+        WeightReduction	          = 99,
+        Weight	                  =	0.5,
+        Capacity	                =	200,
+        Icon	                    =	HJ_BigChestBag,
+        OpenSound                 = OpenBag,
+        CloseSound                = CloseBag,
+        PutInSound                = PutItemInBag,
+        RunSpeedModifier          = 1,
+        WorldStaticModel          = HJ_BigChestBag,
+        bodyLocation              = FannyPackFront,
+        CanBeEquipped             = FannyPackFront,
+  }
+
 
 }

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <fileGuidTable>
+	<!-- HJ_BigBackPackMod Start -->
 	<files>
 		<path>media/clothing/clothingItems/HJ_BigBackPackMod.xml</path>
 		<guid>a623fc24-1895-4dd1-9da9-af9f763dbc0f</guid>
@@ -12,4 +13,18 @@
 		<path>media/clothing/clothingItems/HJ_BigBackPackMod_RHand.xml</path>
 		<guid>5c08a57d-b651-47bb-ba7b-f67ca2c0aa6c</guid>
 	</files>
+	<!-- HJ_BigBackPackMod End -->
+	<!-- HJ_BigChestBag Start -->
+	<files>
+		<path>media/clothing/clothingItems/HJ_BigChestBag/HJ_BigChestBag_Front.xml</path>
+		<guid>07a80d1a-c8d2-405b-a7ec-48b62f4ab29f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HJ_BigChestBag/HJ_BigChestBag_Back.xml</path>
+		<guid>dfbc7362-7b47-455d-b178-5f58eb765a7b</guid>
+	</files>
+
+
+	
+	<!-- HJ_BigChestBag End -->	
 </fileGuidTable>

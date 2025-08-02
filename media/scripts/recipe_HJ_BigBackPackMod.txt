@@ -1,0 +1,17 @@
+module HJ_BigBack
+{
+  imports
+  {
+    base
+  }
+
+	recipe HJ_BigBackPackMod 제작
+	{
+		keep Needle,
+		Thread=1,
+		RippedSheets=10,
+		Result 		: HJ_BigBackPackMod,
+		Time 		: 80,
+		CanBeDoneFromFloor 		: true,
+	}
+}

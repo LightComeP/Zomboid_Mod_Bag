@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>HJ_BigChestBag/HJ_BigChestBag</m_MaleModel>
+	<m_FemaleModel>HJ_BigChestBag/HJ_BigChestBag</m_FemaleModel>
+	<m_GUID>a623fc24-1895-4dd1-9da9-48b62f4ab29f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>HJ_BigChestBag/HJ_BigChestBag</textureChoices>
+</clothingItem>
